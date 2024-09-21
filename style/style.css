@@ -1,0 +1,109 @@
+/* index.php */
+body {
+    background-color: #e0e0e0;
+    padding-top: 80px; /* Memberi ruang antara navbar fixed-top dan konten */
+}
+
+.room-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.room-card img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.room-card h5 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.room-card ul {
+    padding-left: 20px;
+}
+
+.room-card .btn {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+/* end style index.php */
+
+/* pesanan.php */
+.container-form {
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    margin-bottom: 2rem;
+}
+
+.btn-custom {
+    width: 100%;
+}
+/* end style pesanan.php */
+
+/* riwayat.php */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.table {
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #495057;
+    color: white;
+}
+
+.btn-view {
+    background-color: #007bff;
+    color: white;
+}
+
+/* end style riwayat.php */
+
+/* detail_pesanan.php */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-back {
+    background-color: #495057;
+    color: white;
+}
+
+/* end style detail_pesanan.php */
